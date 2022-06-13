@@ -1,0 +1,17 @@
+.video-container {
+    border: 1px solid white;
+    background-color: white;
+    /* snap begins */
+    width: 50%;
+    height: 100%;
+    position: relative;
+    scroll-snap-align: start;
+    /* snap ends */
+    margin-left: auto;
+    margin-right: auto;
+}
+.video-container-player {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

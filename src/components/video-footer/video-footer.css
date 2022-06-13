@@ -1,0 +1,65 @@
+.video-footer {
+    position: relative;
+    bottom: 150px;
+    margin-left: 20px;
+    color: white;
+    display: flex;
+}
+.video-footer-text {
+    flex: 1;
+}
+.video-footer-text > h3 {
+    padding-bottom: 5px;
+}
+.video-footer-text > p {
+    padding-bottom: 15px;
+}
+.video-footer-icon {
+    margin-right: 10px;
+}
+.video-footer-ticker {
+    display: flex;
+}
+.video-footer-ticker > .ticker {
+    height: fit-content;
+    width: 50%;
+    color: white;
+}
+.video-footer-record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 40px;
+    filter: invert(1);
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+@keyframes spinTheRecord {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* 
+#marquee-cont {
+    background: #f4f4f4;
+    margin-top:10px;
+  }
+  #marquee-cont marquee {
+    margin-top: 5px;
+  }
+  #marquee-news {
+    
+    background: #1174A8;
+    padding: 5px;
+  }
+  #ticker-title{
+    border:none;
+    padding:5px 20px;
+    background:#1174A8;
+    color:white;
+  }
+  #ticker-title:focus{
+    outline:none;
+  } */
